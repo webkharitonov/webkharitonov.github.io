@@ -36,6 +36,12 @@ header{
 	font-weight: 700;
 	padding: 17px 55px;
 	margin-top: 33px;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+.header-button:hover{
+	box-shadow: none;
 }
 header small{
 	font-size: 12px;
@@ -120,6 +126,10 @@ footer{
 .footer-cta{
 	margin-bottom: 13px;
 }
+.footer-button:hover{
+	background-color: #fff;
+	color: #3a7dfd;
+}
 .footer-button{
 	text-decoration: none;
 	display: inline-block;
@@ -129,6 +139,9 @@ footer{
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
 }
 @media(max-width: 1200px){
 	.header-pretitle{
